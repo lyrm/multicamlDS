@@ -9,7 +9,7 @@ let create () = { counter = 0; reversed = 0; highbit = -1 }
 let increment c =
   c.counter <- c.counter + 1;
   match c.counter with
-  | x when x = 1 ->
+  | 1 ->
       c.reversed <- 1;
       c.highbit <- 1;
       c.reversed

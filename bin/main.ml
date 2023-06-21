@@ -2,7 +2,7 @@ open MulticamlDS;;
 
 let task = 1_000_000 in
 
-print_endline "--- Simualtion Starts ---";
+print_endline "--- Simulation Starts ---";
 
 (* 1-both push and pop, 2-only producer, 3-only consumer *)
 let worker q num_ops id =
